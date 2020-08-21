@@ -14,7 +14,7 @@ class CuboidMakr{
        return this.length * this.height * this.width;
     }
     volume(){
-        return this.length * this.width + this.length * this.height + this.width * this.height;
+        return 2 * (this.length * this.width + this.length * this.height + this.width * this.height);
     }
 }
 const cubito= new CuboidMakr(5, 5, 5)
